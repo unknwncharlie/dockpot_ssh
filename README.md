@@ -16,3 +16,5 @@ $ sudo docker run -it -p 22:22 -d -v `pwd`/log/auth.log:/var/log/auth.log -v `pw
 
 ## Info
 The default username and password is `admin:password` this can be changed in the Dockerfile. be sure you change all instances of the username if you change it (in the docker commands etc).
+
+Add the arguments `--restart unless-stopped` to the docker run command if you want the container to run until stopped even if it "crashes".
