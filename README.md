@@ -1,6 +1,6 @@
 # dockpot_ssh
 
-Very easy SSH honeypot that allows you to see failed login attempts and bash history.
+Very simple SSH honeypot that allows you to see failed login attempts and bash history.
 
 This is a test for a future project.
 
