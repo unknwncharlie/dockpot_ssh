@@ -11,7 +11,7 @@ To run download the repository and in that directory issue the following command
 
 ```
 $ sudo docker build . -f Dockerfile -t dockpot_ssh:latest
-$ sudo docker run -it -p 22:22 -d -v `pwd`/log/auth.log:/var/log/auth.log -v `pwd`/home/:/home/admin/ --name dockpot_container
+$ sudo docker run -it -p 22:22 -d -v `pwd`/log/auth.log:/var/log/auth.log -v `pwd`/home/:/home/admin/ --name dockpot_container dockpot_ssh:latest
 ```
 
 ## Info
